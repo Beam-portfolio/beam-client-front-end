@@ -5,18 +5,18 @@ const HeroSection = () => {
     <section id='hero' className="relative w-full min-h-[70dvh] bg-gradient-to-br from-[#0f0f26] to-[#000] overflow-hidden px-0 pb-0">
       <div className="w-full flex flex-col md:flex-row items-center justify-center px-10 pt-10 pb-4 gap-8 md:gap-0">
         <div className="flex-1 flex flex-col justify-center align-center z-10 max-w-2xl md:pr-12">
-          <h3 className="text-4xl md:text-3xl font-extrabold text-white mb-4 leading-tight">
-          Web Solutions & Agentic Platforms<br /> for <span className="text-blue-400">Scalable Growth</span>
-            <span className="block text-white text-xl md:text-2xl mt-2 font-medium ">
+          <h3 className="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">
+          Web Solutions & Agentic Platforms<br /> <span className="text-blue-400">for Scalable Growth</span>
+            <span className="block text-white text-base md:text-2xl mt-2 font-medium ">
               Custom Apps • Machine Learning • LLM Integration
             </span>
           </h3>
-          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-xl">
+          <p className="text-base md:text-xl text-white/80 mb-8 max-w-xl">
             From MVP to enterprise-grade apps, we build fast, secure, and stunning web experiences.
           </p>
-          <div className="flex gap-4">
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg font-semibold text-lg transition">View Case Studies</button>
-            <button className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full border border-white/30 font-semibold text-lg transition">Talk to Our Team</button>
+          <div className="flex flex-nowrap gap-2 w-full max-w-xs md:max-w-none">
+            <button className="flex-1 whitespace-nowrap bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 md:px-6 md:py-3 rounded-full shadow-lg font-semibold text-sm md:text-lg transition">View Case Studies</button>
+            <button className="flex-1 whitespace-nowrap bg-white/10 hover:bg-white/20 text-white px-3 py-2 md:px-6 md:py-3 rounded-full border border-white/30 font-semibold text-sm md:text-lg transition">Talk to Our Team</button>
           </div>
         </div>
         <div className="flex-1 flex justify-end items-center z-10 w-full max-w-[540px] ">

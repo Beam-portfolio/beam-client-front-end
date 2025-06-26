@@ -5,7 +5,7 @@ const ServicesSection = ({ services }) => {
   console.log(services[0]?.color);
 
   return (
-    <section id="services" className="w-full py-16 px-5 bg-white pb-0">
+    <section id="services" className="w-full py-16 px-6 md:px-5 bg-white pb-0">
       <h2 className="text-2xl md:text-3xl font-bold text-[#222357] mb-8 px-5">Services</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-5">
         {services && services?.length > 0 ?

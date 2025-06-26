@@ -26,7 +26,7 @@ const PortfolioShowcase = ({ projects }) => {
   }, [projects])
 
   return (
-    <section id='portfolio' className='py-16 px-12 pb-0'>
+    <section id='portfolio' className='py-16 px-6 md:px-12 pb-0'>
       <h2 className="text-2xl md:text-3xl font-bold text-[#222357] mb-4">Portfolio Showcase</h2>
       <div className="w-full  bg-white  flex flex-col md:flex-row gap-10 justify-between items-stretch min-h-[520px]">
         <div className="md:w-1/2 shadow-xl rounded-2xl overflow-hidden p-[2em] flex-1 flex flex-col">
